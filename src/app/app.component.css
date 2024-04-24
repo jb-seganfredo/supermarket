@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+app-products-catalog {
+    margin: 100px;
+}
+
+app-footer {
+    margin-top: auto;
+}
+

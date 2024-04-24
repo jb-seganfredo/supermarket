@@ -1,0 +1,31 @@
+mat-toolbar {
+    background-color: #121212;
+    color: white;
+    font-size: 30px;
+    padding: 10px 50px;  
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 0;
+}
+
+mat-toolbar span {
+    align-items: center;
+    padding-right: 5px;
+}
+
+mat-toolbar a {
+    color: white;
+    text-decoration: none;
+    padding: 2px;
+}
+
+mat-toolbar a:hover {
+    color: #4dab57;
+}
+
+mat-toolbar p {
+    font-size: 10px;
+    font-style: italic;
+    margin: 0;
+}

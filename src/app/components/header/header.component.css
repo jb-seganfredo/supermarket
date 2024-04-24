@@ -1,0 +1,38 @@
+mat-toolbar {
+    background-color: #4a8e2adb;
+    color: white;
+    font-size: 30px;
+    padding: 10px 50px;
+    position: fixed;
+}
+
+mat-toolbar span {
+    padding-right: 5px;
+}
+
+mat-icon {
+    padding-right: 5px;
+    color: white;
+}
+
+mat-toolbar #favorite {
+    color: #ff0000;
+}
+
+mat-toolbar #favorite:hover {
+    color: black;
+}
+
+mat-toolbar #cart:hover {
+    color: black;
+}
+
+mat-toolbar button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.spacer {
+    flex: 1 1 auto;
+}

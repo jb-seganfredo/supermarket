@@ -1,0 +1,10 @@
+<mat-list>
+    @for(product of addedProductsList; track product.id) {
+      <mat-list-item>
+        {{ product.title }} | {{ product.totalAddedToCart }}
+      </mat-list-item>
+      <mat-divider></mat-divider>
+    } @empty {
+      <mat-list-item>Carrinho vazio!</mat-list-item>
+    }
+</mat-list>
